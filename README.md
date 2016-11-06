@@ -14,3 +14,6 @@ export TWITTER_API_KEY=[KEY]
 # 3) Run against a Twitter account, optionally speficying the number of tweets to pull as a base
 python markov.py derekryansound 200
 ```
+## Structure
+
+While the `markov.py` is the runnable script, the actual processing is in `lib/CheapMarkov.py` and `lib/TweetFeeder.py`
